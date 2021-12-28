@@ -1,4 +1,4 @@
-loadstring(exports.cr_dgs:dgsImportOOPClass())();
+loadstring(exports.dgs:dgsImportOOPClass())();
 
 local hit = {}
 local dgs = {}

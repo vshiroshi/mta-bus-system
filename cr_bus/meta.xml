@@ -1,0 +1,23 @@
+<bca>
+	<!-- info -->
+	<info type="script" name="cr_bus" description="Sistema de transporte de onibus desenvolvido por HiroShi" author="Brasileiros Classe Alta" version="1.0" />
+
+	<!-- OOP -->
+	<oop>true</oop>
+
+	<!-- script -->
+	<script src='shared.lua' type='shared'/>
+	<script src='server.lua' type='server' cache='false'/>
+	<script src='client.lua' type='client' cache='false'/>
+
+	<!-- replace -->
+	<file src='replace/bus.col'/>
+	<file src='replace/bus.dff' cache='false'/>
+	<file src='replace/bus.txd'/>
+
+	<script src='replace/script.lua' type='client'/>
+
+	<!-- effects and sound -->
+	<file src='files/break.mp3'/>
+	<file src='files/traveling.mp3'/>
+</bca>

@@ -6,8 +6,7 @@ local dgs = {}
 addEventHandler('onClientResourceStart', resourceRoot, function()
     for i,v in ipairs(bus_stops) do
         local x,y,z = unpack(v.position)
-        hit[i] = Marker(x,y,z, 'cylinder', 1.5, 0, 0, 0, 0)
-        hit[i]:setData('markerc >> type', 'bus')
+        hit[i] = Marker(x,y,z, 'cylinder', 1.5, 90, 90, 255, 80)
         addEventHandler('onClientMarkerHit', hit[i], onHit)
     end
 

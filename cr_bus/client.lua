@@ -10,7 +10,7 @@ addEventHandler('onClientResourceStart', resourceRoot, function()
         addEventHandler('onClientMarkerHit', hit[i], onHit)
     end
 
-    dgs['window'] = dgsWindow(0.35, 0.2, 0.3, 0.5, 'PONTO DE ÔNIBUS - BCA', true)
+    dgs['window'] = dgsWindow(0.35, 0.2, 0.3, 0.5, 'PONTO DE ÔNIBUS', true)
     dgs['window']:on("dgsWindowClose", function()
         showCursor(false)
         dgs['window']:setVisible(false)
